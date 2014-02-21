@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Plack-Middleware-LightProfile,
-version 0.001:
+version 0.002:
 
   A small, lightweight profiler for time and memory as Plack middleware
 

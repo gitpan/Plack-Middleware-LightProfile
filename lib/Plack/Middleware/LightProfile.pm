@@ -1,5 +1,5 @@
 package Plack::Middleware::LightProfile;
-$Plack::Middleware::LightProfile::VERSION = '0.001';
+$Plack::Middleware::LightProfile::VERSION = '0.002';
 use parent qw/Plack::Middleware/;
 use Process::SizeLimit::Core;
 use Time::HiRes qw/gettimeofday tv_interval/;
@@ -27,7 +27,7 @@ Plack::Middleware::LightProfile - A small, lightweight profiler for time and mem
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
